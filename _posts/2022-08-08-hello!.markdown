@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Hello!"
+date:   2022-08-08 01:39:23 -0700
+categories: update
+---
+Hi there! This is a short post to say that we're happy you're checking out the blog. Don't be a stranger 😁
