@@ -2,7 +2,6 @@
 layout: page
 title: @LPI Paris
 permalink: /specifics/lpi-paris/
-exclude: true
 ---
 
 LPI is equipped with one OT2 in the main BSL1 lab space. The robot also a computer next to it for controlling it. However, you may connect to it with your laptop instead. Here as some tips for printing at LPI:
