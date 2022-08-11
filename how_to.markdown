@@ -36,7 +36,7 @@ Next, select the labware you will use to print the art. The default is a 90mm ro
 
 Finally, click "Request Print Protocol", which will make popup showing you the artpieces you will print. Click the "Click To Download Your Procedure" button, which will cause a Python file to be downloaded to your computer. If you get any warnings about the filetype being dangerous you can ignore them.
 
-![an anmiated GIF showing the art selection process](/assets/img/art_selection.gif)
+![an animated GIF showing the art selection process](/assets/img/art_selection.gif)
 
 #### Load Protocol
 
@@ -66,12 +66,12 @@ The agar plates have to be calibrated in a non-standard way. Rather than calibra
 
 It is preferable to go too deep rather than not going deep enough. If the tip does not go deep enough, then the small amount of liquid dispensed will stick to the tip and whole parts of the the artpiece won't print. Conversely, if the tip goes too deep, it will pierce the agar, which isn't ideal, but has a minimal effect on the artpiece.
 
-After calibration, follow the prompts on the app to run the protocol normally. It's often a good idea to watch the first few pixels get printed to ensure the robot is doing everything successfullly. After that, you can safely walk away. Printing takes something like 5 to 10 minutes per plate, depending on how much whitespace is in the drawing.
+After calibration, follow the prompts on the app to run the protocol normally. It's often a good idea to watch the first few pixels get printed to ensure the robot is doing everything successfully. After that, you can safely walk away. Printing takes something like 5 to 10 minutes per plate, depending on how much whitespace is in the drawing.
 
 It is best to close the robot door while printing, to minimize plate exposure to airborne contaminants.
 
 ![the robot plating droplets on an agar plate](/assets/img/plating.gif)
-_The robot placing droplets along an agar palte_
+_The robot placing droplets along an agar plate_
 
 #### Incubate
 
@@ -81,7 +81,7 @@ The microbes grow best when incubated at 30C for 48 hours. If you're time-constr
 
 You can incubate the plates in any incubator, but if you have a SPIRO plate imaging device (see section below), you should use that to make time-lapse movie of the art growing. If you're not using the SPIRO, you can skip ahead to the next section.
 
-When you load the SPIRO, you should load one plate per side of the stage. This means that if you've printed more than four pieces, they can't all be imaged this way. Square plates slide into the slot, and round plates sit in the divet at the bottom of the slot. Try to keep track of which side is the top of the art and load it that way so that the video doesn't have to be manipulated later. However, if the lid is very foggy, you can load the plate with the lid facing in and the art will be visible through the agar, albeit in a slightly discolored way.
+When you load the SPIRO, you should load one plate per side of the stage. This means that if you've printed more than four pieces, they can't all be imaged this way. Square plates slide into the slot, and round plates sit in the divot at the bottom of the slot. Try to keep track of which side is the top of the art and load it that way so that the video doesn't have to be manipulated later. However, if the lid is very foggy, you can load the plate with the lid facing in and the art will be visible through the agar, albeit in a slightly discolored way.
 
 ![spiro plate imager](/assets/img/SPIRO.gif)
 _The SPIRO plate imager. A Raspberry Pi camera on the left takes pictures of the plates on the right, lit by LED strips in the middle._
@@ -108,7 +108,7 @@ Finally, label all the files to match their artpiece and upload them to the BioA
 
 ### Troubleshooting
 
-All kinds of small errors can occur when uploading the protocol to the Opentrons App. This is the integrationpoint between the pure BioArtBot stuff and the Opentrons stuff, so when either codebase changes it can cause issues here.
+All kinds of small errors can occur when uploading the protocol to the Opentrons App. This is the integration point between the pure BioArtBot stuff and the Opentrons stuff, so when either codebase changes it can cause issues here.
 
 A good way to help figure out what's going wrong is to open the Python file that you downloaded from bioartbot.org and make changes as necessary. Opentrons has [very good documentation for their API](https://docs.opentrons.com/v2/), which will help you figure out what's going on.
 
