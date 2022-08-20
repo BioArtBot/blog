@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: How To
 permalink: /howto/
 ---
@@ -54,7 +54,7 @@ Speaking of glycerol stocks, if you notice there are 2 or fewer stocks left in t
 
 Allow the stocks to melt and load them onto the plate you're using for the "bio-inks". The default is to use a cryo tube holder, which is nice because you simply need to place the cryo tubes themselves into the holder and remove the caps when the run is ready. If you don't have a cryo tube holder, you can use any plate that's big enough and load it with a pipette.
 
-__=> Watchout! Common Mistake =>__ Many people default to loading colors along the top row - presumably because that's how we read. However, the robot lists colors along the leftmost column. You should load the colors along the leftmost column.
+__Watchout!__ Many people default to loading colors along the top row - presumably because that's how we read. However, the robot lists colors along the leftmost column. You should load the colors along the leftmost column.
 
 Load the pipette rack, color plate, and all agar plates as indicated on the Opentrons app. If you are using SBS plates, then they should fit into the slots. Otherwise, you'll use plate adapters, which if you don't already have are available in the [BioArtBot Hardware Repo](https://github.com/BioArtBot/hardware_adapters).
 

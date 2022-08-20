@@ -1,6 +1,6 @@
 ---
-layout: page
-title: @LPI Paris
+layout: default
+title: 🤖 at LPI Paris
 permalink: /specifics/lpi-paris/
 ---
 
