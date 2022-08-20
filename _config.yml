@@ -30,7 +30,6 @@ twitter_username: TimSDobbs
 github_username:  BioArtBot
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 

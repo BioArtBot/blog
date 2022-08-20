@@ -1,6 +1,6 @@
 ---
-layout: page
-title: @Counter Culture Labs
+layout: default
+title: 🤖 at Counter Culture Labs
 permalink: /specifics/ccl-oakland/
 ---
 

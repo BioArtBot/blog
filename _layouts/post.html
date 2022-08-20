@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    <br>
+    <h1>BioArtBlog</h1>
+    <section class='longform-text'>
+        <h2>{{ page.title }}</h2>
+        <em>{{ page.date }}</em>
+        <hr>
+        {{ content }}
+    </section>
+  </body>
+</html>

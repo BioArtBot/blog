@@ -20,9 +20,22 @@ section {
 
 section.longform-text {
 	text-align: left;
-	margin-left: 15%;
-	margin-right: 15%;
 	margin-top: 20px;
+	background-color: #fff;
+	padding: 20px;
+	max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+section.longform-text h3 {
+	padding-top: 40px;
+}
+
+section.longform-text h4 {
+	padding-top: 20px;
 }
 
 .image-caption{
@@ -273,4 +286,9 @@ hr.section-break:before {
 
 #submission-error {
 	display: none;
+}
+
+img {
+	max-width: 100%;
+    vertical-align: middle;
 }

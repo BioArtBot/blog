@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="/">
+		<img
+			src="/assets/img/bab_banner_left_small.png"
+			alt="BioArtBot" />
+	</a>
+	<button
+		class="navbar-toggler ml-auto"
+		type="button"
+		data-toggle="collapse"
+		data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent"
+		aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav align-items-center">
+			<li class="nav-item ml-md-3{{ home_tag }}">
+				<a class="nav-link" href="http://www.bioartbot.org">
+					Home
+				</a>
+			</li>
+			<li class="nav-item ml-md-3">
+				<a class="nav-link" rel="noopener"
+					href="http://www.bioartbot.org/about">
+					About
+				</a>
+			</li>
+            <li class="nav-item ml-md-3{% if page.url == '/howto/' %} active{% endif %}">
+				<a class="nav-link" rel="noopener"
+					href="/howto/"
+					>
+					How To
+				</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav align-items-center ml-auto flex-row justify-content-center">
+			<li class="nav-item ml-md-3">
+				<a class="nav-link p-2" href="https://github.com/BioArtBot/bioartbot"
+						  target="_blank" rel="noopener">
+					<i class="fab fa-github-alt fa-lg"></i>
+				</a>
+			</li>
+			<li class="nav-item ml-md-3">
+				<a class="nav-link p-2"
+					href="https://www.youtube.com/channel/UCRUJB_S3yMINT7hvwFord6Q"
+					target="_blank" rel="noopener">
+					<i class="fab fa-youtube fa-lg"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
