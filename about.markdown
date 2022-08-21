@@ -16,6 +16,8 @@ permalink: /about/
     The microbes we use are human-safe strains of E. coli that have been genetically modified so that they produce bright colors when they grow.
     We get different colors by choosing cells with different genetic modifications.</p>
 
+![the overall bioartbot process](/assets/img/overall_bioartbot_process.png)
+
 <h4>What happens when you submit a drawing</h4>
 
 <p>Once we've received a batch of drawings, we use software we wrote to translate your drawings into robot instructions, and one of the volunteer BioArtBot team members loads them onto our robot.
