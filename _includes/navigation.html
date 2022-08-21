@@ -17,14 +17,20 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav align-items-center">
-			<li class="nav-item ml-md-3{{ home_tag }}">
+			<li class="nav-item ml-md-3">
 				<a class="nav-link" href="http://www.bioartbot.org">
 					Home
 				</a>
 			</li>
 			<li class="nav-item ml-md-3">
 				<a class="nav-link" rel="noopener"
-					href="http://www.bioartbot.org/about">
+					href="http://www.bioartbot.org/gallery">
+					Gallery
+				</a>
+			</li>
+			<li class="nav-item ml-md-3{% if page.url == '/about/' %} active{% endif %}">
+				<a class="nav-link" rel="noopener"
+					href="/about/">
 					About
 				</a>
 			</li>
